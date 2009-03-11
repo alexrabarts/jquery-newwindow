@@ -8,19 +8,19 @@ when an anchor is clicked.
 Open all links with a <code>rel</code> attribute of <code>external</code>
 in a new window:
 
-  <pre>
-    $('a[rel~=external]').newWindow();
-  </pre>
+<pre>
+  $('a[rel~=external]').newWindow();
+</pre>
 
 Add a callback when a new window is opened:
 
-  <pre>
-    $('#myLink').newWindow({
-      open: function (newWindow, e) {
-        console.log('Window opened', newWindow, e);
-      }
-    });
-  </pre>
+<pre>
+  $('#myLink').newWindow({
+    open: function (newWindow, e) {
+      console.log('Window opened', newWindow, e);
+    }
+  });
+</pre>
 
 # Licensing
 
