@@ -3,8 +3,6 @@
 newWindow is a super-simple jQuery plugin for opening new browser windows
 when an anchor is clicked.
 
-See full documentation at <a href="http://alexrabarts.github.com/jquery-newwindow/">http://alexrabarts.github.com/jquery-newwindow/</a>.
-
 ## Usage
 
 Open all links with a <code>rel</code> attribute of <code>external</code>
@@ -29,4 +27,4 @@ Add a callback when a new window is opened:
 Licensed under the MIT:
 http://www.opensource.org/licenses/mit-license.php
 
-Copyright (c) 2008 Stateless Systems (http://statelesssystems.com)
+Copyright (c) 2011 Stateless Systems (http://statelesssystems.com)
