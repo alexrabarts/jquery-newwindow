@@ -1,0 +1,21 @@
+{
+  "name": "newwindow",
+  "version": "1.0.0",
+  "title": "jQuery newWindow",
+  "author": {
+    "name": "Alex Rabarts",
+    "url": "http://github.com/alexrabarts"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies":  {
+    "jquery": ">=1.2"
+  },
+  "description": "newWindow is a super-simple jQuery plugin for opening new browser windows when an anchor is clicked.",
+  "homepage": "http://github.com/alexrabarts/jquery-newwindow",
+  "bugs": "https://github.com/alexrabarts/jquery-newwindow/issues"
+}
