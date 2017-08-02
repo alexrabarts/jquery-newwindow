@@ -16,6 +16,7 @@
         $(this).click(function (e) {
           e.preventDefault();
           var newWindow = open(this.href);
+          newWindow.opener = null;
           options.open.call(newWindow, e);
         });
       });
